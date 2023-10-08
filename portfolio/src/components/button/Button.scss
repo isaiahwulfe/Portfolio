@@ -1,0 +1,21 @@
+.button-shell {
+    background-color: transparent;
+    border: none;
+    border-right: 1px solid black;
+    border-radius: 0px;
+    padding: 4px 0px;
+    width: 100%;
+
+    &:last-of-type {
+        border-right: none;
+    }
+
+    &:hover {
+        text-decoration: solid underline maroon 2px;
+        text-underline-offset: 8px;
+    }
+
+    &:active {
+        transform: scale(0.9);
+    }
+}

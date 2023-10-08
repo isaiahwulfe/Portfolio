@@ -1,0 +1,13 @@
+.nav-anchor {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 16px;
+    text-align: center;
+    width: 80%;
+    
+    .nav-text {
+        font-size: 12px;
+        font-weight: 300;
+    }
+}
